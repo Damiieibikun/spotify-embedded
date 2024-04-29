@@ -140,19 +140,22 @@
             height: 180px;
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;
-            padding: 20px;
+            /* padding: 20px; */
             overflow-y: auto;
             font-size: 15px;
+            border: 7px solid;
         }
         
         .brown-bottom {
             background-color: #925b60;
             scrollbar-color: #75494d #925b60;
+            border-color: #925b60;
         }
         
         .blue-bottom {
             background-color: #1F7296;
             scrollbar-color: #195B78 #237EA6;
+            border-color: #1F7296;
         }
         
         .song-list {
